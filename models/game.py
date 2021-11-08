@@ -2,13 +2,13 @@ class Game():
     def __init__(self):
         self.chosen = {"rock": 1, "paper": 2, "scissors": 3}
 
-    def player_choice(self, player):
-        return self.chosen[player.choice]
+    def player_choice(self, player): #
+        return self.chosen[player.choice] #
 
 
-    def winner_result(self, player1, player2): 
+    def winner_result(self, player1, player2):  #
 
-        winner = None
+        winner = None #
 
         if self.player_choice(player1) == self.player_choice(player2):
             winner = None
